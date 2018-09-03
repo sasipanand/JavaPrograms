@@ -7,6 +7,9 @@ public class WordDictionary
 	
 	public static void doesFileExist(String path) 
 	{
+/*
+Method checks for file existence
+*/
 		try
 		{
 			File file = new File(path);
